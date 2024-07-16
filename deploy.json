@@ -1,11 +1,11 @@
 {
     "containers": {
       "nodejs": {
-        "image": "99299999990738.dkr.ecr.ap-south-1.amazonaws.com/nodejs-repo:nodejs",
+        "image": "992382599990738.dkr.ecr.ap-south-1.amazonaws.com/nodejs-repo:nodejs",
         "environment":{
             "DB_HOST": "ls-5cf191582d3bdb793a9b0d99fce251ea2e972f7b.c3s6068s004y.ap-south-1.rds.amazonaws.com",
-            "DB_USER": "{{resolve:secretsmanager:aws/lightsail/db:username}}",
-            "DB_PASSWORD": "{{resolve:secretsmanager:aws/lightsail/db:password}}",
+            "DB_USER": "root",
+            "DB_PASSWORD": "12345678",
             "DB_DATABASE": "nodejsdb"
         },
         "ports": {
