@@ -43,7 +43,7 @@ docker tag $IMAGE_NAME:latest aws_account_id.dkr.ecr.$AWS_REGION.amazonaws.com/$
 # Push Docker Image to ECR
 echo "Pushing Docker Image to ECR..."
 docker push aws_account_id.dkr.ecr.$AWS_REGION.amazonaws.com/$REPO_NAME:$IMAGE_NAME
-# Sample command : docker push 992382590738.dkr.ecr.$AWS_REGION.amazonaws.com/$REPO_NAME:$IMAGE_NAME
+# Sample command : docker push 99299999990738.dkr.ecr.$AWS_REGION.amazonaws.com/$REPO_NAME:$IMAGE_NAME
 
 
 
