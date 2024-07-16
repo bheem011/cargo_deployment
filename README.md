@@ -10,7 +10,7 @@ This repository contains helper files to create infrastructure on the aws cloud 
 #### 3. Run the build.sh 
 It will create infrastructure on cloud and push the container to ecr
 
-### 4. Run the below commands to deploy container to service : 
+#### 4. Run the below commands to deploy container to service : 
 aws configure
 aws lightsail create-container-service-deployment --service-name nodejs --cli-input-json file://deploy.json
 
